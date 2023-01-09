@@ -129,6 +129,7 @@ class _CartScreenState extends State<CartScreen> {
 
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blueGrey[500],
         title: Text('Cart (${currentUser.cart.length})'),
       ),
       body: ListView.separated(
@@ -182,7 +183,7 @@ class _CartScreenState extends State<CartScreen> {
                     ),
                   ],
                 ),
-                SizedBox(height: 80.0),
+                SizedBox(height: 100.0),
               ],
             ),
           );
@@ -195,7 +196,7 @@ class _CartScreenState extends State<CartScreen> {
         },
       ),
       bottomSheet: Container(
-        height: 100.0,
+        height: 80.0,
         width: MediaQuery.of(context).size.width,
         decoration: BoxDecoration(
           color: Theme.of(context).primaryColor,
@@ -215,7 +216,7 @@ class _CartScreenState extends State<CartScreen> {
                 color: Colors.white,
                 fontSize: 22.0,
                 fontWeight: FontWeight.bold,
-                letterSpacing: 2.0,
+                letterSpacing: 4.0,
               ),
             ),
             onPressed: () {},

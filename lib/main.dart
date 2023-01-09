@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
       title: 'Food Delivery App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        scaffoldBackgroundColor: Colors.grey[50],
+        scaffoldBackgroundColor: Colors.blueGrey[50],
         primaryColor: Colors.blueGrey,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
