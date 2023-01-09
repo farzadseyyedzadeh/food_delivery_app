@@ -17,10 +17,10 @@ class RecentOrders extends StatelessWidget {
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: <Widget>[
+        children: [
           Expanded(
             child: Row(
-              children: <Widget>[
+              children: [
                 ClipRRect(
                   borderRadius: BorderRadius.circular(15.0),
                   child: Image(
@@ -93,7 +93,7 @@ class RecentOrders extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      children: <Widget>[
+      children: [
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 20.0),
           child: Text(
