@@ -13,10 +13,10 @@ class _CartScreenState extends State<CartScreen> {
       padding: EdgeInsets.all(20.0),
       height: 170.0,
       child: Row(
-        children: <Widget>[
+        children: [
           Expanded(
             child: Row(
-              children: <Widget>[
+              children: [
                 Container(
                   width: 150.0,
                   decoration: BoxDecoration(
@@ -33,7 +33,7 @@ class _CartScreenState extends State<CartScreen> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: <Widget>[
+                      children: [
                         Text(
                           order.food.name,
                           style: TextStyle(
@@ -63,7 +63,7 @@ class _CartScreenState extends State<CartScreen> {
                           ),
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
-                            children: <Widget>[
+                            children: [
                               GestureDetector(
                                 onTap: () {},
                                 child: Text(
@@ -141,7 +141,7 @@ class _CartScreenState extends State<CartScreen> {
           return Padding(
             padding: EdgeInsets.all(20.0),
             child: Column(
-              children: <Widget>[
+              children: [
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
@@ -164,7 +164,7 @@ class _CartScreenState extends State<CartScreen> {
                 SizedBox(height: 10.0),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: <Widget>[
+                  children: [
                     Text(
                       'Total Cost:',
                       style: TextStyle(

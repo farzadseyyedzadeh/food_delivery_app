@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             child: Row(
-              children: <Widget>[
+              children: [
                 ClipRRect(
                   borderRadius: BorderRadius.circular(15.0),
                   child: Hero(
@@ -53,7 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: <Widget>[
+                      children: [
                         Text(
                           restaurant.name,
                           style: TextStyle(
@@ -105,7 +105,7 @@ class _HomeScreenState extends State<HomeScreen> {
           onPressed: () {},
         ),
         title: Text('Food Delivery'),
-        actions: <Widget>[
+        actions: [
           TextButton(
             child: Text(
               'Cart (${currentUser.cart.length})',
@@ -124,7 +124,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ],
       ),
       body: ListView(
-        children: <Widget>[
+        children: [
           Padding(
             padding: EdgeInsets.all(20.0),
             child: TextField(
@@ -158,7 +158,7 @@ class _HomeScreenState extends State<HomeScreen> {
           RecentOrders(),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: <Widget>[
+            children: [
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 20.0),
                 child: Text(

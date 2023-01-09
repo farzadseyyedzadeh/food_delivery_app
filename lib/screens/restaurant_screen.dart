@@ -17,7 +17,7 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
     return Center(
       child: Stack(
         alignment: Alignment.center,
-        children: <Widget>[
+        children: [
           Container(
             height: 175.0,
             width: 175.0,
@@ -50,7 +50,7 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
           Positioned(
             bottom: 65.0,
             child: Column(
-              children: <Widget>[
+              children: [
                 Text(
                   menuItem.name,
                   style: TextStyle(
@@ -97,7 +97,7 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: <Widget>[
+        children: [
           Stack(
             children: <Widget>[
               Hero(
@@ -135,7 +135,7 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
             padding: EdgeInsets.all(20.0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
+              children: [
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
@@ -165,7 +165,7 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: <Widget>[
+            children: [
               TextButton(
                 style: TextButton.styleFrom(
                   padding: EdgeInsets.symmetric(horizontal: 30.0),
