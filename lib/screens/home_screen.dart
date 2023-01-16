@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
               color: Colors.white,
               borderRadius: BorderRadius.circular(15.0),
               border: Border.all(
-                width: 1.0,
+                width: 1.5,
                 color: Colors.grey,
               ),
             ),
